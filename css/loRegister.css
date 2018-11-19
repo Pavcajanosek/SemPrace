@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fbfbfb;
+}
+
+
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    height: 50px;
+}
+
+header nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+header nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#header-web-title {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#header-logo {
+    width: 20px;
+    margin-right: 20px;
+}
+
+#hero{
+    height: 100%;
+    width: 100%;
+    background: url("./../images/homePage/backgrnd.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#hero a{
+    color: white;
+
+}
+
+#in{
+
+    position: relative;
+    display: block;
+}
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+}
+input[type="password"]{
+    width: 200px;
+    height: 30px;
+}
+input[type="submit"]{
+    margin-left: 60px;
+    width: 80px;
+    height: 30px;
+}
+
+p{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#reg{
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(13, 13, 13, 0.76);
+    opacity: 30%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+h4{
+    font-size: 20px;
+    color: white;
+}
