@@ -23,6 +23,7 @@
     }
         if (isset($_SESSION['username'])) {?>
          <a href="/sem_pr/spolecne/logout.php">Logout</a>
+            <a href="/sem_pr/page/orders.php">Order history</a>
             <?php if($_SESSION['username']=='root') {
                 ?><a href="/sem_pr/page/user.php">Users</a>
             <?php }

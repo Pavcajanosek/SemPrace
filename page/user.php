@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="../css/layout.css?version=51">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Pavlovo | Web developer</title>
+    <title>Welcome to PavcaMart</title>
 </head>
 
 <?php

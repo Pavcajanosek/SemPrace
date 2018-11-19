@@ -53,9 +53,12 @@ if (isset($_POST['username']) and isset($_POST['password'])) {
         echo $r["email"];
         $_SESSION['username'] = $r["username"];
         $_SESSION['userType']= $r["userType"];
+
         header('location: ../index.php');
 
     }else{
+        $message = "Wrong username or password!";
+        echo "<script type='text/javascript'>alert('$message');</script>";
         ?><title>Wrong login</title><?php
     }
 }

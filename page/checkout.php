@@ -35,8 +35,12 @@ VALUES ($id,$price,'$uname')";
 
 
     }
-    echo "Thank you for your order";
+    echo "Thank you for your order <br>";
+    unset($_SESSION['cart']);
+
 }
 
 ?>
+    <br><br><br>
+    <a href="../index.php">Home</a>
 </section>
