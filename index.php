@@ -14,24 +14,21 @@
 include('./spolecne/navPanel.php')
 ?>
 <body>
-
-
 <section id="hero">
     <div>
         <h1>Welcome to PavcaMart</h1>
         <h2>Choose product:</h2>
-        <a href="./page/laptops.php">
+        <a href="page/productPage.php?id=1">
             <img id="menu" src="images/homePage/laptop.jpg" alt="Notebooks" style="width:200px;height:200px;border:0;">
         </a>
-        <a href="./page/accessories.php">
+        <a href="./page/productPage.php?id=2">
             <img id="menu" src="images/homePage/acc.jpg" alt="Accessories" style="width:200px;height:200px;border:0;">
         </a>
-        <a href="./page/phones.php">
+        <a href="./page/productPage.php?id=3">
             <img id="menu" src="images/homePage/phone.jpg" alt="Smart phones" style="width:200px;height:200px;border:0;">
         </a>
     </div>
 
 </section>
-
 </body>
 </html>

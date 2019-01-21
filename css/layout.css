@@ -100,6 +100,22 @@ header nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
+.flex-wrap a{
+
+
+    width: 100%;
+    background-color: #333;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 1s;
+    border: 1px solid rgb(60, 64, 60);
+    bottom: 10px;
+}
 
 .card {
     text-align: left;
@@ -156,6 +172,12 @@ header nav a:hover {
 
     color: white;
 
+}
+.exp a{
+}
+main a:hover {
+    background-color: rgba(204, 208, 204, 0.91);
+    color: #333333;
 }
 footer {
     z-index: 100;

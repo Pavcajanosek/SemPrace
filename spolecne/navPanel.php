@@ -14,6 +14,7 @@
         <a href="/sem_pr/page/contactMe.php">Contact me</a>
 
         <a href="/sem_pr/page/cart.php">Cart</a>
+        <title>Welcome to PavcaMart</title>
 
 
 <?php
@@ -27,11 +28,10 @@
             <?php if($_SESSION['username']=='root') {
                 ?><a href="/sem_pr/page/user.php">Users</a>
             <?php }
-         echo "    Hello mr. ". $_SESSION['username'];
             ?>
 
         <?php
-            if($_SESSION['userType']="2") ?> <title> <?php echo "Hello mr. " . $_SESSION['username'] ?></title>";
+            if($_SESSION['userType']="2") echo "Hello mr. " . $_SESSION['username'] ?>";
          <?
         }else{ ?>
             <a href="/sem_pr/page/register.php">Register</a>

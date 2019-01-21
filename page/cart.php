@@ -50,12 +50,32 @@ include('../spolecne/navPanel.php');
             <tr>
                 <td><strong>Total Price</strong></td>
                 <td><strong><?php echo $total; ?>,- CZK</strong></td>
-                <td><a href="checkout.php" class="btn btn-info">Checkout</a></td>
+                <td><a href="checkoutDetails.php" class="btn btn-info">Checkout</a></td>
             </tr>
         </table>
 
     </div>
-    <?php } ?>
+    <?php }else{
 
+        echo "No items in cart";
+
+    } ?>
 </div>
 </section>
+
+
+<?php
+    if(isset($_POST['isExported'])){
+        $result = mysql_query($sql,$conecction);
+        $fp = fopen('file.csv', 'w');
+        while($row = mysql_fetch($result)){
+            fputcsv($fp, $row);
+        }
+        fclose($fp);
+
+    }
+
+
+
+
+?>

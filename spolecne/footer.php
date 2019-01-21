@@ -30,8 +30,8 @@
 
         <section>
             <p>Copyright
-                2017                -
-                2018 <a href="https://github.com">Pavel</a></p>
+                2018                -
+                2019 <a href="https://github.com">Pavel</a></p>
         </section>
 
     </div>

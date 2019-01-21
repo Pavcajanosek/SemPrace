@@ -27,7 +27,7 @@ include('../spolecne/navPanel.php')
                         <img src="../images/homePage/laptop.jpg"/>
                         <h2>Laptops</h2>
                         <p>Come on in and check out our AWESOME laptops!</p><br><br>
-                        <a href="./laptops.php">
+                        <a href="productPage.php?id=1">
                             <div>More...</div>
                         </a>
                     </div>
@@ -36,24 +36,31 @@ include('../spolecne/navPanel.php')
                         <img src="../images/homePage/acc.jpg"/>
                         <h2>Accessories</h2>
                         <p>Do you need accessories for your device? Dont wait up and continue on this page!</p><br>
-                        <a href="./accessories.php">
+                        <a href="productPage.php?id=2">
                             <div>More...</div>
                         </a>
                     </div>
-
 
                     <div class="card">
                         <img src="../images/homePage/phone.jpg"/>
                         <h2>Phones</h2>
                         <p>Are you looking for new smart phone? You will certainly find your match here!</p><br><br>
-                        <a href="phones.php">
+                        <a href="productPage.php?id=3">
                             More...
                         </a>
                     </div>
 
+                    <a href="../config/exportProducts.php">Export products</a>
+
+                    <?php
+                    if(isset($_SESSION['username'])){
+                        if($_SESSION['username']=='root') {?>
+                            <a href="../DBHelper/productTypeImport.php">Import product types from file</a>
+                        <?php }} ?>
                 </div>
             </div>
         </div>
+
     </div>
 </main>
 
