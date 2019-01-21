@@ -7,7 +7,7 @@ $res = mysqli_query($connection, $sql);
 
         <?php while($r = mysqli_fetch_assoc($res)){ ?>
             <div class="card">
-                <img src="<?php echo $r['image']; ?>">
+                <img src="<?php echo $r['image']; ?>" alt="a">
                 <h2><?php echo $r['nazev'] ?></h2>
                 <p><?php echo $r['description'] ?></p>
                 <p><?php echo $r['price'] ?>,- CZK</p>

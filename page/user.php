@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <?php
 include "../spolecne/hlavicka.php";
 include "../spolecne/navPanel.php"?>
@@ -18,7 +18,7 @@ $res = mysqli_query($connection, $sql);
 
         ?>
 
-</div>
+        </div>
 
     </div>
 </div>

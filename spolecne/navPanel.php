@@ -1,9 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-
-</head>
-
 
 <header>
     <div id="header-web-title">PavcaMart |</div>
@@ -14,8 +8,6 @@
         <a href="/sem_pr/page/contactMe.php">Contact me</a>
 
         <a href="/sem_pr/page/cart.php">Cart</a>
-        <title>Welcome to PavcaMart</title>
-
 
 <?php
     if(!isset($_SESSION))

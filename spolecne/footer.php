@@ -1,8 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-
-</head>
 
 <footer>
     <div class="full-width-wrapper">
@@ -25,14 +20,14 @@
                 </address>
 
             </section>
-
+            <section>
+                <p>Copyright
+                    2018                -
+                    2019 <a href="https://github.com">Pavel</a></p>
+            </section>
         </div>
 
-        <section>
-            <p>Copyright
-                2018                -
-                2019 <a href="https://github.com">Pavel</a></p>
-        </section>
+
 
     </div>
 </footer>

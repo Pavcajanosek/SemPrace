@@ -79,7 +79,21 @@ header nav a:hover {
 
 
 
-#menu{
+#menuL{
+    margin-left: 30px ;
+    border-radius: 30px;
+    border: 10px solid black;
+    box-shadow: 5px 5px 5px BLACK;
+}
+
+#menuA{
+    margin-left: 30px ;
+    border-radius: 30px;
+    border: 10px solid black;
+    box-shadow: 5px 5px 5px BLACK;
+}
+
+#menuP{
     margin-left: 30px ;
     border-radius: 30px;
     border: 10px solid black;

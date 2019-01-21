@@ -1,14 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/loHome.css">
+    <title>Welcome to Pavcamart</title>
+</head>
 <?php
 session_start();
 require_once('../config/connect.php');
 include('../spolecne/navPanel.php');
 ?>
 
-<head>
-
-    <link rel="stylesheet" type="text/css" href="../css/loHome.css">
-
-</head>
 
 <section id="hero">
 <div class="container">

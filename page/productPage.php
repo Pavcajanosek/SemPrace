@@ -14,7 +14,6 @@
 <?php
 include('../spolecne/navPanel.php')
 ?>
-<body>
 <div class="sidenav">
     <a href="productPage.php?id=1">Laptops</a>
     <a href="productPage.php?id=2">Accessories</a>
@@ -34,10 +33,7 @@ include('../spolecne/navPanel.php')
     </div>
 </main>
 
-<footer>
 
     <?php
     include '../spolecne/footer.php' ?>
-</footer>
-</body>
 </html>

@@ -26,5 +26,5 @@ while($r = mysqli_fetch_assoc($res)){
         </tr>';
 
 }
-
+echo '</table>';
 ?>
